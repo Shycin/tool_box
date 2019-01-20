@@ -34,7 +34,7 @@ function getSelected()
 	}
 	return false;
 }
-
+m
 function init()
 {
 	$("body").prepend(
