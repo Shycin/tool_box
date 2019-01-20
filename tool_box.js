@@ -11,7 +11,6 @@ function commande(nom, argument){
     document.execCommand(nom, false, argument);
 }
 
-
 function getSelected()
 {
 
@@ -101,9 +100,9 @@ function init()
 
 
 $(document).ready(function() {
-
-	document.execCommand("defaultParagraphSeparator", false, "div");
+	
 	init();
+	document.execCommand("defaultParagraphSeparator", false, "div");	
 
 	$(".div_modif_text").click(function(){
 
