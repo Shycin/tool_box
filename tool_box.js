@@ -1,4 +1,4 @@
-function commande(nom, argument){
+fghjfghjfunction commande(nom, argument){
 
     if (typeof argument === 'undefined') {
     	argument = '';
