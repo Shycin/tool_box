@@ -38,6 +38,9 @@ function getSelected()
 function init()
 {
 	$("body").prepend(
+		"<!-- Auteur : JACQUES Antony -->"+
+		"<!-- Utiliser tool_box.js pour inclure dans vos projets un editeur WYSIWYG -->"+
+		"<!-- Lien du github du createur https://github.com/Shycin/tool_box -->"+
 		"<style type='text/css'>#edit_capsule{display: none;}#background{position: fixed;top: 0;left: 0;z-index: 10;background-color: black;opacity: 0.8;width: 100%;height: 100%;}#editeur{position: fixed;z-index: 100;border-radius: 45px;border-top-right-radius: 0px;background-color: lightgrey;width: 50%;min-width: 800px;margin-left: 25%;height: 500px;}#editeur #n_para{width: 100%;height: 10%;border-top-left-radius: 45px;background-color: grey;}#editeur #tool{width: 80%;height: 10%;margin: auto;}#editeur #tool div{margin-left: 10px;margin-right: 10px;float: left;}#editeur #write{width: 80%;height: 60%;background-color: white;margin-left: 10%;overflow-x: hidden;overflow-y: scroll;float: left;}#editeur #write>div:not(#margin){position: absolute;z-index: 10;}#editeur #margin{width: 80%;background-color: yellow;float: left;position: absolute;}#editeur .update_data{width: 80%;margin-left: 10%;height: 40px;float: left;}#editeur #close{width: 25px;float: right;cursor: pointer;}@media (max-width: 1100px) {#content{width: 80%;margin-left: 10%;}#editeur{width: 80%;margin-left: 10%;}</style>"+
 		"<div id='edit_capsule'>"+
 			"<div id='editeur'>"+
