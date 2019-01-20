@@ -180,7 +180,6 @@ $(document).ready(function() {
 		setTimeout(function(){ 
 			$(this_).bind("keyup", handler);
 		}, 1000);
-		
 	};
 
 	$("#write").bind("keyup blur DOMNodeInserted", handler);
