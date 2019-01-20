@@ -53,18 +53,18 @@ function init()
 				    	"<input type='button' id='strikethrough' value='U' style='text-decoration:line-through;'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/left.png);'/>"+
-				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/center.png);'/>"+
-				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/right.png);'/>"+
-				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/justifier.png);'/>"+
+				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/left.png);'/>"+
+				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/center.png);'/>"+
+				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/right.png);'/>"+
+				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/justifier.png);'/>"+
 				   	"</div>"+
 				    "<div>"+
-				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/fleft.png);'/>"+
-				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/fright.png);'/>"+
+				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fleft.png);'/>"+
+				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fright.png);'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/pucenumero.png);'/>"+
-				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://github.com/Shycin/tool_box/blob/master/pucepoint.png);'/>"+
+				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucenumero.png);'/>"+
+				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucepoint.png);'/>"+
 				    "</div>"+
 				    "<div>"+
 				    	"<input type='button' id='createLink' value='&#x1F517'/>"+
