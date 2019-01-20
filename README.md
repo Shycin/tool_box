@@ -9,7 +9,7 @@ example : [div id="id_unique" class="div_modif_text autre_class"][/div] le bloc 
   
   
 Inclure le fichier dans votre projet par le biais d'un script<br> 
-<BQ> <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script><br> 
+<BLOCKQUOTE> <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script><br> 
 <BQ> <script type="text/javascript"><br> 
 <BQ> <BQ> $(document).ready(function()<br> 
 <BQ> <BQ> <BQ> {<br> 
