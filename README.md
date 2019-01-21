@@ -5,7 +5,7 @@ auteur : JACQUES Antony
 Description : Utiliser tool_box.js pour inclure dans vos projets un editeur WYSIWYG
 
 Utilisation : Pour inclure l'éditeur ajouter un id unique, puis une class "div_modif_text" à la "div"<br> 
-<BLOCKQUOTE> example : [div id="id_unique" class="div_modif_text autre_class"][/div] </BLOCKQUOTE> <br>
+<BLOCKQUOTE> example : [div id="id_unique" class="div_modif_text"][/div] </BLOCKQUOTE> <br>
 le bloc "id_unique" pourra contenir du texte rédiger par l'utilisateur
   
   
