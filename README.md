@@ -6,7 +6,7 @@ Description : Utiliser tool_box.js pour inclure dans vos projets un editeur WYSI
 
 Utilisation : Pour inclure l'éditeur ajouter un id unique, puis une class "div_modif_text" à la "div"<br> 
 <BLOCKQUOTE> example : [div id="votre_id_unique" class="div_modif_text"][/div] </BLOCKQUOTE> <br>
-le bloc "votre_id_unique" pourra contenir du texte rédiger par l'utilisateur
+le bloc "votre_id_unique" pourra contenir du texte rédiger par l'utilisateur<br> <br> 
   
   
 Inclure le fichier dans votre projet par le biais d'un script<br> 
