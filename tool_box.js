@@ -170,7 +170,6 @@ $(document).ready(function() {
 	});
 	
 	$("#write").on("click focus",function(){
-		console.clear();
 		var node = getSelected().focusNode;
 
 		$(".tool input").css("outline", "0px solid white");
