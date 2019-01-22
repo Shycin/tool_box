@@ -54,7 +54,7 @@ function init()
 				"<div id='n_para'><div id='close'>&#x274C;</div></div>"+
 				"<div id='tool'><p>"+
 					"<div>"+
-												"<input type='button' id='bold' value='G' style='font-weight:bold;'/>"+
+						"<input type='button' id='bold' value='G' style='font-weight:bold;'/>"+
 						"<input type='button' id='italic' value='I' style='font-style:italic;'/>"+
 				    	"<input type='button' id='underline' value='S' style='text-decoration:underline;'/>"+
 				    	"<input type='button' id='strikethrough' value='U' style='text-decoration:line-through;'/>"+
@@ -74,6 +74,9 @@ function init()
 				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucepoint.png);'/>"+
 				    "</div>"+
 				    "<div>"+
+				    	"<input type='button' id='createLink' value='&#x1F517'/>"+
+				    "</div>"+
+				    "<div>"+
 					    "<select size='1' id='fontSize'>"+
 					    	"<option value='1'>8</option>"+
 					    	"<option value='2'>10</option>"+
@@ -85,19 +88,16 @@ function init()
 					    "</select>"+
 					"</div>"+
 					"<div>"+
-				    	"<select id='formatBlock'>"+
-				    		"<option value='<p>' selected>Aucun titre</option>"+
-							"<option value='<h1>'>Titre 1</option>"+
-							"<option value='<h2>'>Titre 2</option>"+
-							"<option value='<h3>'>Titre 3</option>"+
-							"<option value='<h4>'>Titre 4</option>"+
-							"<option value='<h5>'>Titre 5</option>"+
-							"<option value='<h6>'>Titre 6</option>"+
+				    	"<select id='heading'>"+
+				    		"<option value='h0'>Aucun titre</option>"+
+							"<option value='h1'>Titre 1</option>"+
+							"<option value='h2' selected>Titre 2</option>"+
+							"<option value='h3'>Titre 3</option>"+
+							"<option value='h4'>Titre 4</option>"+
+							"<option value='h5'>Titre 5</option>"+
+							"<option value='h6'>Titre 6</option>"+
 						"</select>"+
 					"</div>"+
-					"<div>"+
-				    	"<input type='button' id='disable' value='disable'/>"+
-				    "</div>"+
 				"</p></div>"+
 				"<div id='write' contentEditable = 'true'></div>"+
 			"</div>"+
