@@ -116,7 +116,6 @@ $(document).ready(function() {
 
 		var id = $(this).attr("id");
 		var content = $(this).html();
-		// content += "<div id='margin'>test</div>";
 
 		$("#editeur #n_para").attr("name",id);
 		$("#editeur #write").html(content);
