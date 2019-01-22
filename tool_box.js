@@ -162,9 +162,6 @@ $(document).ready(function() {
 
 	mutationObserver.observe(document.getElementById("write"), {attributes: true,characterData: true,childList: true,subtree: true,attributeOldValue: true,characterDataOldValue: true});
 
-	//$("#write").bind("keyup blur DOMNodeInserted", handler);
-
-
 	$("#disable").click(function(){
 		document.execCommand('formatBlock', false, 'div')
 	});
