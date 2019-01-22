@@ -78,25 +78,25 @@ function init()
 				    "</div>"+
 				    "<div>"+
 					    "<select size='1' id='fontSize'>"+
-					    	"<option value='1'>8</option>"+
-					    	"<option value='2'>10</option>"+
-					    	"<option value='3' selected>12</option>"+
-					    	"<option value='4'>14</option>"+
-					    	"<option value='5'>16</option>"+
-					    	"<option value='6'>18</option>"+
-					    	"<option value='7'>20</option>"+
+						"<option value='1'>8</option>"+
+						"<option value='2'>10</option>"+
+						"<option value='3' selected>12</option>"+
+						"<option value='4'>14</option>"+
+						"<option value='5'>16</option>"+
+						"<option value='6'>18</option>"+
+						"<option value='7'>20</option>"+
 					    "</select>"+
 					"</div>"+
 					"<div>"+
-				    	"<select id='formatBlock'>"+
-				    		"<option value='<p>' selected>Aucun titre</option>"+
-							"<option value='<h1>'>Titre 1</option>"+
-							"<option value='<h2>'>Titre 2</option>"+
-							"<option value='<h3>'>Titre 3</option>"+
-							"<option value='<h4>'>Titre 4</option>"+
-							"<option value='<h5>'>Titre 5</option>"+
-							"<option value='<h6>'>Titre 6</option>"+
-						"</select>"+
+					"<select id='formatBlock'>"+
+						"<option value='<p>' selected>Aucun titre</option>"+
+						"<option value='<h1>'>Titre 1</option>"+
+						"<option value='<h2>'>Titre 2</option>"+
+						"<option value='<h3>'>Titre 3</option>"+
+						"<option value='<h4>'>Titre 4</option>"+
+						"<option value='<h5>'>Titre 5</option>"+
+						"<option value='<h6>'>Titre 6</option>"+
+					"</select>"+
 					"</div>"+
 				"</p></div>"+
 				"<div id='write' contentEditable = 'true'></div>"+
