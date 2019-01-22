@@ -168,4 +168,74 @@ $(document).ready(function() {
 	$("#editeur #close").click(function(){
 		$("#edit_capsule").css("display","none");
 	});
+	
+	$("#write").on("click focus",function(){
+		console.clear();
+		var node = getSelected().focusNode;
+
+		$(".tool input").css("outline", "0px solid white");
+
+		$("#formatBlock").val('<p>');
+		$("#fontSize").val(3);
+
+		var parent = $(node).parents().map(function() {
+			switch(this.tagName.toString())
+			{
+				case "B":
+					$("#bold").css("outline", "2px solid #0099ff");
+				break;
+
+				case "I":
+					$("#italic").css("outline", "2px solid #0099ff");
+				break;
+
+				case "U":
+					$("#underline").css("outline", "2px solid #0099ff");
+				break;
+
+				case "STRIKE":
+					$("#strikethrough").css("outline", "2px solid #0099ff");
+				break;
+
+				case "FONT":
+
+					size = $(this).attr("size")
+
+					if(size > 0)
+					{
+						$("#fontSize").val(size);
+					}
+
+				break;
+
+				case "H1":
+					$("#formatBlock").val('<h1>');
+				break;
+
+				case "H2":
+					$("#formatBlock").val('<h2>');
+				break;
+
+				case "H3":
+					$("#formatBlock").val('<h3>');
+				break;
+
+				case "H4":
+					$("#formatBlock").val('<h4>');
+				break;
+
+				case "H5":
+					$("#formatBlock").val('<h5>');
+				break;
+
+				case "H6":
+					$("#formatBlock").val('<h6>');
+				break;
+
+
+			}
+		});
+
+		$("#n_para").focus();
+	});
 });
