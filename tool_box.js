@@ -162,11 +162,6 @@ $(document).ready(function() {
 
 	mutationObserver.observe(document.getElementById("write"), {attributes: true,characterData: true,childList: true,subtree: true,attributeOldValue: true,characterDataOldValue: true});
 
-	$("#disable").click(function(){
-		document.execCommand('formatBlock', false, 'div')
-	});
-
-
 	$("#background").click(function(){
 		$("#edit_capsule").css("display","none");
 	});
@@ -174,8 +169,4 @@ $(document).ready(function() {
 	$("#editeur #close").click(function(){
 		$("#edit_capsule").css("display","none");
 	});
-
-
-
-
 });
