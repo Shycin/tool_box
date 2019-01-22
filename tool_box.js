@@ -88,14 +88,14 @@ function init()
 					    "</select>"+
 					"</div>"+
 					"<div>"+
-				    	"<select id='heading'>"+
-				    		"<option value='h0'>Aucun titre</option>"+
-							"<option value='h1'>Titre 1</option>"+
-							"<option value='h2' selected>Titre 2</option>"+
-							"<option value='h3'>Titre 3</option>"+
-							"<option value='h4'>Titre 4</option>"+
-							"<option value='h5'>Titre 5</option>"+
-							"<option value='h6'>Titre 6</option>"+
+				    	"<select id='formatBlock'>"+
+				    		"<option value='<p>' selected>Aucun titre</option>"+
+							"<option value='<h1>'>Titre 1</option>"+
+							"<option value='<h2>'>Titre 2</option>"+
+							"<option value='<h3>'>Titre 3</option>"+
+							"<option value='<h4>'>Titre 4</option>"+
+							"<option value='<h5>'>Titre 5</option>"+
+							"<option value='<h6>'>Titre 6</option>"+
 						"</select>"+
 					"</div>"+
 				"</p></div>"+
