@@ -60,43 +60,43 @@ function init()
 				    	"<input type='button' id='strikethrough' value='U' style='text-decoration:line-through;'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/left.png);'/>"+
-				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/center.png);'/>"+
-				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/right.png);'/>"+
-				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/justifier.png);'/>"+
+				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/left.png);'/>"+
+				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/center.png);'/>"+
+				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/right.png);'/>"+
+				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/justifier.png);'/>"+
 				   	"</div>"+
 				    "<div>"+
-				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fleft.png);'/>"+
-				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fright.png);'/>"+
+				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/fleft.png);'/>"+
+				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/fright.png);'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucenumero.png);'/>"+
-				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucepoint.png);'/>"+
+				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/pucenumero.png);'/>"+
+				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/pucepoint.png);'/>"+
 				    "</div>"+
 				    "<div>"+
 				    	"<input type='button' id='createLink' value='&#x1F517'/>"+
 				    "</div>"+
 				    "<div>"+
 					    "<select size='1' id='fontSize'>"+
-						"<option value='1'>8</option>"+
-						"<option value='2'>10</option>"+
-						"<option value='3' selected>12</option>"+
-						"<option value='4'>14</option>"+
-						"<option value='5'>16</option>"+
-						"<option value='6'>18</option>"+
-						"<option value='7'>20</option>"+
+					    	"<option value='1'>8</option>"+
+					    	"<option value='2'>10</option>"+
+					    	"<option value='3' selected='true'>12</option>"+
+					    	"<option value='4'>14</option>"+
+					    	"<option value='5'>16</option>"+
+					    	"<option value='6'>18</option>"+
+					    	"<option value='7'>20</option>"+
 					    "</select>"+
 					"</div>"+
 					"<div>"+
-					"<select id='formatBlock'>"+
-						"<option value='<p>' selected>Aucun titre</option>"+
-						"<option value='<h1>'>Titre 1</option>"+
-						"<option value='<h2>'>Titre 2</option>"+
-						"<option value='<h3>'>Titre 3</option>"+
-						"<option value='<h4>'>Titre 4</option>"+
-						"<option value='<h5>'>Titre 5</option>"+
-						"<option value='<h6>'>Titre 6</option>"+
-					"</select>"+
+				    	"<select id='formatBlock'>"+
+				    		"<option value='<p>' selected='true'>Aucun titre</option>"+
+							"<option value='<h1>'>Titre 1</option>"+
+							"<option value='<h2>'>Titre 2</option>"+
+							"<option value='<h3>'>Titre 3</option>"+
+							"<option value='<h4>'>Titre 4</option>"+
+							"<option value='<h5>'>Titre 5</option>"+
+							"<option value='<h6>'>Titre 6</option>"+
+						"</select>"+
 					"</div>"+
 				"</p></div>"+
 				"<div id='write' contentEditable = 'true'></div>"+
@@ -116,6 +116,7 @@ $(document).ready(function() {
 
 		var id = $(this).attr("id");
 		var content = $(this).html();
+		// content += "<div id='margin'>test</div>";
 
 		$("#editeur #n_para").attr("name",id);
 		$("#editeur #write").html(content);
@@ -168,11 +169,12 @@ $(document).ready(function() {
 	$("#editeur #close").click(function(){
 		$("#edit_capsule").css("display","none");
 	});
-	
+
+
 	$("#write").on("click focus",function(){
 		var node = getSelected().focusNode;
 
-		$(".tool input").css("outline", "0px solid white");
+		$("#tool").find("input").css("outline", "0px solid white");
 
 		$("#formatBlock").val('<p>');
 		$("#fontSize").val(3);
@@ -237,4 +239,5 @@ $(document).ready(function() {
 
 		$("#n_para").focus();
 	});
+
 });
