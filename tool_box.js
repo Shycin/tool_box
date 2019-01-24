@@ -60,18 +60,18 @@ function init()
 				    	"<input type='button' id='strikethrough' value='U' style='text-decoration:line-through;'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/left.png);'/>"+
-				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/center.png);'/>"+
-				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/right.png);'/>"+
-				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/justifier.png);'/>"+
+				    	"<input type='button' id='justifyLeft' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/left.png);'/>"+
+				    	"<input type='button' id='justifyCenter' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/center.png);'/>"+
+				    	"<input type='button' id='justifyRight' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/right.png);'/>"+
+				   		"<input type='button' id='justifyFull' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/justifier.png);'/>"+
 				   	"</div>"+
 				    "<div>"+
-				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/fleft.png);'/>"+
-				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/fright.png);'/>"+
+				    	"<input type='button' id='undo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fleft.png);'/>"+
+				    	"<input type='button' id='redo' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/fright.png);'/>"+
 				    "</div>"+
 				    "<div>"+
-				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/pucenumero.png);'/>"+
-				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(../image/dev/pucepoint.png);'/>"+
+				    	"<input type='button' id='insertorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucenumero.png);'/>"+
+				    	"<input type='button' id='insertunorderedlist' value='' style=' background-size: 100%;background-repeat: no-repeat;background-image: url(https://raw.githubusercontent.com/Shycin/tool_box/master/pucepoint.png);'/>"+
 				    "</div>"+
 				    "<div>"+
 				    	"<input type='button' id='createLink' value='&#x1F517'/>"+
@@ -80,7 +80,7 @@ function init()
 					    "<select size='1' id='fontSize'>"+
 					    	"<option value='1'>8</option>"+
 					    	"<option value='2'>10</option>"+
-					    	"<option value='3' selected='true'>12</option>"+
+					    	"<option value='3' selected>12</option>"+
 					    	"<option value='4'>14</option>"+
 					    	"<option value='5'>16</option>"+
 					    	"<option value='6'>18</option>"+
@@ -89,7 +89,7 @@ function init()
 					"</div>"+
 					"<div>"+
 				    	"<select id='formatBlock'>"+
-				    		"<option value='<p>' selected='true'>Aucun titre</option>"+
+				    		"<option value='<p>' selected>Aucun titre</option>"+
 							"<option value='<h1>'>Titre 1</option>"+
 							"<option value='<h2>'>Titre 2</option>"+
 							"<option value='<h3>'>Titre 3</option>"+
